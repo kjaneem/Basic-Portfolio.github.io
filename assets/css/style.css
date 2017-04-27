@@ -71,18 +71,6 @@ a {
     text-decoration: none;
 }
 
-/*
-h2 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-}
-
-h3 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-}
-*/
-
 hr {
     width: "90%";
     align: center;
@@ -110,6 +98,22 @@ hr {
 
 #bigline {
     size: "8";
+}
+
+#main-bio {
+    line-height: 1.5;
+}
+
+#bio-image {
+    float: left;
+    width: 318px;
+    height: 226px;
+    margin-right: 20px;
+}
+
+#mylink {
+    color: #4aaaa5;
+    font-weight: bold;
 }
 
 #littleline {
