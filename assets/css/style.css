@@ -1,0 +1,133 @@
+.container {
+    	width: 100%;
+   	    border: 1px solid gray;
+        background: #eee;
+        /*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
+}
+
+#namebox {
+   	background-color: #ffffff;
+   	clear: left;
+   	text-align: center;	
+    margin: 0;
+    margin-bottom: 20px;
+    width: 980px;
+    float: left;
+}
+
+h1 {
+	color: #eee;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	padding: 20px 0;
+	font-size: 28px;
+	background: #4aaaa5;
+	width: 220px;
+	margin: 0;
+	margin-left: 270px;
+  font-weight: bold;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.navlink {
+    background-color: #ffffff;
+    margin: 0;
+    width: 90px;
+    padding-top: 27.6px;
+    padding-right: 0;
+    padding-bottom: 27.6px;
+    padding-left: 0;
+    float: left;
+    margin-bottom: 20px;
+    color: #eee;
+    text-align: center;
+    font-size: 14px;
+}
+
+#whitebox {
+    background-color: #ffffff;
+    width: 267px;
+    padding-top: 34.4px;
+    padding-bottom: 34.4px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+/*
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+*/
+
+hr {
+    width: "90%";
+    align: center;
+}
+
+#bigbox {
+    float: left;
+    width: 650px;
+    background: #ffffff;
+    height: 530px;
+    padding: 20px;
+    margin-left: 270px;
+    margin-right: 20px;
+
+}
+
+#littlebox {
+    float: left;
+    width: 270px;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bigline {
+    size: "8";
+}
+
+#littleline {
+    size: "4";
+}
+
+.littleimage {
+    width: 64px;
+    height: 64px;
+}
+
+footer {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #666666;
+    clear: left;
+    text-align: center;
+  	border-top: solid #4aaaa5 5px;
+  	width: 100%;
+  	font-size: 12px;
+}
