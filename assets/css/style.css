@@ -91,7 +91,7 @@ hr {
     float: left;
     width: 650px;
     background: #ffffff;
-    height: 500px;
+    height: 530px;
     padding: 20px;
     margin-left: 270px;
     margin-right: 20px;
@@ -143,12 +143,10 @@ td {
 }
 
 #det-image {
-    float: left;
+   float: left;
     width: 25%;
     height: 25%;
-    /*
     margin-right: 5px;
-    */
 }
 
 /* END - Portfolio pics table */
