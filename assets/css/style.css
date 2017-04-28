@@ -1,35 +1,40 @@
 .container {
     	width: 100%;
-   	    border: 1px solid gray;
+   	    border: 2px solid purple;
         background: #eee;
-        /*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
 }
 
-.container-fluid {
-    	border: 1px solid gray;
-        background: #eee;
-        /*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
-}
-#namebox {
+#namelinkshdr {
    	background-color: #ffffff;
-   	clear: left;
-   	text-align: center;	
+    text-align: center;	
     margin: 0;
-    margin-bottom: 20px;
-    width: 980px;
+    /*margin-bottom: 20px;*/
+    width: 100%;
     float: left;
+    border: 2px solid red;
 }
 
 h1 {
 	color: #eee;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
-	padding: 20px 0;
 	font-size: 28px;
+    padding: 20px 0px;
 	background: #4aaaa5;
 	width: 220px;
-	margin: 0;
 	margin-left: 270px;
-  font-weight: bold;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+#links {
+    float: right;
+    margin-left: 20px;
+    border: 2px solid red;
+}
+
+#maincontent {
+    background: #777777;
+    margin: 100px;
 }
 
 h2 {
@@ -47,16 +52,11 @@ h3 {
 
 .navlink {
     background-color: #ffffff;
-    margin: 0;
-    width: 90px;
     padding-top: 27.6px;
     padding-right: 0;
     padding-bottom: 27.6px;
     padding-left: 0;
-    float: left;
-    margin-bottom: 20px;
     color: #eee;
-    text-align: center;
     font-size: 14px;
 }
 
