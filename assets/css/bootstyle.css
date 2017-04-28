@@ -22,3 +22,16 @@ h1 {
     text-align: center;
 }
 
+.navlink {
+    margin: 0;
+    background-color: #ffffff;
+    color: #eee;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
