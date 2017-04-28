@@ -1,25 +1,37 @@
 .container-fluid {
     border: 1px solid gray;
+    margin: 0;
+    padding: 0;
 }
 
 .row {
     border: 1px solid red;
 }
 
+#content {
+    background: #eee;
+}
+
 #namebox {
-    margin: 0;
    	background-color: #ffffff;
+   	clear: left;
+   	text-align: center;	
+    margin: 0;
+    margin-bottom: 20px;
+    width: 980px;
+    float: left;
 }
 
 h1 {
-    margin: 0;
 	color: #eee;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	padding: 20px 0;
 	font-size: 28px;
 	background: #4aaaa5;
-	font-weight: bold;
-    text-align: center;
+	width: 220px;
+	margin: 0;
+	margin-left: 270px;
+  font-weight: bold;
 }
 
 .navlink {
@@ -34,4 +46,35 @@ h1 {
 a {
     color: #777777;
     text-decoration: none;
+}
+
+#BIGBOX {
+    background: #ffffff;
+    width: 650px;
+    padding: 20px;
+    margin-left: 270px;
+    marging-right: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+#bigline {
+    size: "8";
+}
+
+footer {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #666666;
+    clear: left;
+    text-align: center;
+  	border-top: solid #4aaaa5 5px;
+  	width: 100%;
+  	font-size: 12px;
 }
