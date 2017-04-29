@@ -4,14 +4,8 @@
         background: #eee;
 }
 
-#namelinkshdr {
-   	background-color: #ffffff;
-    text-align: center;	
-    margin: 0;
-    /*margin-bottom: 20px;*/
-    width: 100%;
-    float: left;
-    border: 2px solid red;
+.container-fluid {
+    
 }
 
 h1 {
@@ -23,13 +17,11 @@ h1 {
 	width: 220px;
 	margin-left: 270px;
     font-weight: bold;
-    border: 2px solid red;
 }
 
 #links {
     float: right;
     margin-left: 20px;
-    border: 2px solid red;
 }
 
 #maincontent {
