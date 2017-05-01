@@ -1,110 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-<div class="container-fluid">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <section id="namebox">
-        <h1>Karen Manley</h1>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
     </section>
 
-    <section class="navlink">
-	    <a href="index.html">About</a>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
     </section>
+  </div>
 
-    <section class="navlink">
-	    <a href="portfolio.html">Portfolio</a>
-    </section>
-
-    <section class="navlink">
-	    <a href="contact.html">Contact</a>
-    </section>
-  
-<section id="whitebox">
-</section>
-
-<section id="bigbox">
-	<h2>Contact</h2>
-    <hr class="bigline">
-
-    <div class="row">
-        <div class="col-md-12">Name</div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
     </div>
-             <div class="col-md-12">
-                <form class="form-inline">
-                  <div class="form-group">
-                         <input type="email" class="form-control" id="email">
-                  </div>
-                </form>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col-md-12">Email</div>
-    </div>
-    <div class="row">
-                 <div class="col-md-12">
-                <form class="form-inline">
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="email">
-                  </div>
-                </form>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col-md-12">Message</div>
-    </div>
-    <div class="row">
-                 <div class="col-md-12">
-                <form class="form-inline">
-                  <div class="form-group">
-                     <input type="email" class="form-control" id="email">
-                  </div>
-                </form>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col-md-12">Submit button</div>
-    </div>
-
-
-</section>
-
-<section id="littlebox">
-    <h3>Connect with Me</h3>
-        <hr id="littleline">
-        <a href="https://github.com/kjaneem">
-                <img class="littleimage" src="assets/images/github_square_black-128.png"
-                     	alt="Githubcom.com">
-        </a>
-        <a href="https://linkedin.com/in/KarenManleyPMP">
-                <img class="littleimage" src="assets/images/linkedin_square_color-128.png"
-                    	alt="LinkedIn.com">
-        </a>
-            <a href="https://stackexchange.com/users/106835565/karen-manley">
-                <img class="littleimage" src="assets/images/stackoverflow.png"
-                    	alt="StackOverflow.com">
-        </a>
-    </section>
-
-<footer>&copy; Copyright 2016 Karen Manley</footer>
-
-</div>
+  </footer>
 </body>
+
 </html>
